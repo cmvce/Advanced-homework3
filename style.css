@@ -81,8 +81,57 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  .primary-link {
+    border-radius: 4px;
+    padding: 10px auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .navigation-links a {
+    margin: 20px;
+  }
+  .secondary-link {
+    border-radius: 4px;
+    padding: 10px auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .col-6 , .container {
+    width: 100%;
+  }
 }
