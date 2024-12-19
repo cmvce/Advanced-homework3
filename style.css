@@ -87,51 +87,24 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-
 @media (max-width: 576px) {
-  body {
-    text-align: center;
-    max-width: fit-content;
-  }
-
   h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 1.5;
   }
-  h2 {
-    font-size: 30px;
-  }
-  h3 {
-    font-size: 16px;
-    opacity: 0.7;
-  }
 
-  .primary-link {
-    border-radius: 4px;
-    padding: 10px auto;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-  }
-  .navigation-links a {
-    margin: 20px;
-  }
-  .secondary-link {
-    border-radius: 4px;
-    padding: 10px auto;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+  h2 {
+    font-size: 32px;
+    text-align: center;
   }
 
   p {
-    font-size: 14px;
-    line-height: 1.5;
+    text-align: center;
   }
-  .col-6 , .container {
-    width: 100%;
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
